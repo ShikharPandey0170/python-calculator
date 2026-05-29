@@ -21,7 +21,7 @@ A simple command-line calculator built using Python.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ShikharPandey0170/calc.git
+git clone https://github.com/ShikharPandey0170/python-calculator.git
 cd calc
 ```
 
