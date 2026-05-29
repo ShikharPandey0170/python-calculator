@@ -34,18 +34,29 @@ python calculator.py
 ## Usage Example
 
 ```text
-Welcome to Python Calculator!
-Select operation:
-1. Add
-2. Subtract
-3. Multiply
-4. Divide
+		 Calculator
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Power
+6) Square Root
+7) Exit
+Enter your choice:- 1
+Enter first number:- 4
+Enter second number:- 6
+Result:- 10.0
 
-Enter choice (1/2/3/4): 1
-Enter first number: 5
-Enter second number: 3
-
-Result: 8.0
+		 Calculator
+1) Addition
+2) Subtraction
+3) Multiplication
+4) Division
+5) Power
+6) Square Root
+7) Exit
+Enter your choice:- 7
+Thank you for using the Calculator!
 ```
 
 ## Project Structure
