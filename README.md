@@ -71,7 +71,6 @@ calc/
 
 ## Future Improvements
 
-* [ ] Better error handling
 * [ ] GUI version using Tkinter
 * [ ] Scientific calculator features
 * [ ] History saving functionality
