@@ -8,13 +8,13 @@ def multiply(a,b):
     return a*b
 def divide(a,b):
     if b==0:
-        return "Error:- Cannot divide by Zero"
+        return "Error: Cannot divide by Zero"
     return a/b
 def power(a,b):
     return a**b
 def square_root(a):
     if a<0:
-        return "Error:- Negative Number"
+        return "Error: Negative Number"
     return math.sqrt(a)
 
 while True:
@@ -34,13 +34,22 @@ while True:
         break
 
     if choice=="6":
-        num=float(input("Enter number:- "))
+        try:
+            num=float(input("Enter number:- "))
+        except ValueError:
+            print("Invalid Input! Enter numbers only.")
+            continue
+        
         print("Result:",square_root(num))
         continue
 
     if choice in ["1","2","3","4","5"]:
-        num1=float(input("Enter first number:- "))
-        num2=float(input("Enter second number:- "))
+        try:
+            num1=float(input("Enter first number:- "))
+            num2=float(input("Enter second number:- "))
+        except ValueError:
+            print("Invalid Input! Enter numbers only.")
+            continue
 
         if choice=="1":
             print("Result:-",add(num1,num2))
