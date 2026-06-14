@@ -124,9 +124,7 @@ python-calculator/
 
 * [ ] Add scientific functions (trigonometry, logarithms, etc.)
 * [ ] Implement a calculation history (saved to a file)
-* [ ] Add unit tests for core arithmetic functions
 * [ ] Enhance the GUI with themes and keyboard shortcuts
-* [ ] Package the project for installation via pip
 
 ## Author
 
